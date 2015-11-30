@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Game/Ball</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+  </head>
+  <body>
+    <canvas id="game_canvas" tabindex="0"></canvas>
+    <table id="score_table">
+      <thead>
+        <tr>
+          <th colspan="2">Score</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th>Player</th>
+          <td><span id="player_score">0</span></td>
+        </tr>
+        <tr>
+          <th>Computer</th>
+          <td><span id="computer_score">0</span></td>
+        </tr>
+      </tbody>
+    </table>
+    <a href="#" id="pause_button" class="button">&#x23f8;</a>
+    <a href="#" id="left_button" class="button arrows">&#8882;</a>
+    <a href="#" id="right_button" class="button arrows">&#8883;</a>
+    <script type="text/javascript" src="js/initialise.js"></script>
+    <script type="text/javascript" src="js/events.js"></script>
+    <script type="text/javascript" src="js/actions.js"></script>
+  </body>
+</html>

@@ -32,32 +32,37 @@ body {
 }
 
 #game_canvas {
-  float: left;
   background: #ffffff;
+  width: 640px;
+  height: 360px;
+  float: left;
+  position: absolute;
+  top: calc(50% - 180px);
+  left: calc(50% - 320px);
 }
 
 #score_table {
   background: rgba(255, 255, 255, 0.4);
   border-collapse: collapse;
   position: absolute;
-  top: 5px;
-  left: 5px;
+  top: calc(50% - 175px);
+  left: calc(50% - 315px);
 }
 
 #pause_button {
   line-height: 32px;
-  top: 5px;
-  right: 5px;
+  top: calc(50% - 175px);
+  left: calc(50% + 285px);
 }
 
 #left_button {
-  bottom: 5px;
-  left: 5px;
+  top: calc(50% + 145px);
+  left: calc(50% - 317px);
 }
 
 #right_button {
-  bottom: 5px;
-  right: 5px;
+  top: calc(50% + 145px);
+  left: calc(50% + 285px);
 }
 
 #score_table > thead th,

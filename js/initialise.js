@@ -5,8 +5,8 @@ const startingPoint = {
   y: 0
 };
 const canvasData = {
-  width: screen.width,
-  height: screen.height
+  width: 640,
+  height: 360
 };
 const characterData = {
   width: 40,
